@@ -50,7 +50,7 @@ Ref: "Users"."id" < "Follows"."following_user_id"
 Ref: "Users"."id" < "Follows"."followed_user_id"
 ```
 
-![Question 1 ERD](q1.png)
+![Q1 ERD](assets/q1.png)
 
 ### Question 2
 
@@ -115,7 +115,7 @@ Ref: "Books"."id" < "CartItems"."book_id"
 Ref: "Cart"."id" < "CartItems"."cart_id"
 ```
 
-![Book Sales ERD](book.png)
+![Book Sales ERD](assets/book.png)
 
 
 ## Submission
